@@ -1,4 +1,4 @@
-baseURL = "https://apsal.me"
+baseURL = "/"
 title   = "apsal"
 languageCode = "en-us"
 theme = "hello-friend-ng"
