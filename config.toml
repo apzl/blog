@@ -19,8 +19,8 @@ dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "public"
 
-buildDrafts  = false
-buildFuture  = false
+buildDrafts  = true
+buildFuture  = true
 buildExpired = false
 canonifyURLs = true
 
