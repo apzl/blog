@@ -136,7 +136,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/apsals"
+    url  = "https://www.linkedin.com/in/apsals/"
 
   [[params.social]]
     name = "kaggle"
