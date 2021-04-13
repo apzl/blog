@@ -6,7 +6,7 @@ title="Projects"
 
 ## trackHN 
 [:globe_with_meridians:](https://trackhn.herokuapp.com/) | [</>](https://github.com/apzl/trackHN)  
-*an app to track keywords in required context in HackerNews, using contextual embeddings by BERT*
+*A tool to search HackerNews for news having a keyword  in it's desired meaning, like for news having keyword 'go' as in 'go lang' rather than go, the verb.*
 ## QuoteBot
 :globe_with_meridians: | [</>](https://github.com/apzl/QuoteBot)  
 *motivational quote generator using fine-tuned GPT-2*
