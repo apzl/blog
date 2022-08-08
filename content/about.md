@@ -5,7 +5,7 @@ aliases = ["about-us","about-hugo","contact"]
 [ author ]
   name = "apsal"
 +++
-Currently I'm an NLP Engineer helping to build interesting products at a start-up in stealth-mode.   
+Currently I'm an NLP Engineer helping to build interesting products at a stealth-mode start-up.   
 NLProc, Privacy and Ethics in AI are my fields of interest.  
 Apart from tech, I love football and Manchester United a LOT.    
   
