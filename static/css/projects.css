@@ -1,0 +1,46 @@
+.projects {
+  --projects-border: #dcdcdc;
+  --projects-muted: #626269;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.dark-theme .projects {
+  --projects-border: #4a4b50;
+  --projects-muted: #9898a2;
+}
+.projects-intro { margin-bottom: 48px; }
+.projects-intro p { max-width: 38em; margin: 0; }
+.projects .projects-section-title {
+  margin: 0;
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--projects-muted);
+}
+.project-feature { padding: 30px 0 34px; border-bottom: 1px solid var(--projects-border); }
+.project-label { margin: 0 0 10px; font-size: .8rem; color: var(--projects-muted); }
+.projects .project-feature h3 { margin: 0 0 18px; font-size: 1.8rem; }
+.project-description { margin: 0 0 14px; }
+.project-detail { margin: 0 0 20px; color: var(--projects-muted); }
+.project-stack { margin: 0 0 16px; font-size: .78rem; color: var(--projects-muted); }
+.project-links { display: flex; flex-wrap: wrap; gap: 10px 24px; font-size: .88rem; }
+.projects a { text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.projects a:hover { text-decoration: none; }
+.projects a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.projects-earlier { margin-top: 48px; }
+.projects .project-list { list-style: none; margin: 24px 0 0; padding: 0; }
+.project-list li { padding: 18px 0; border-bottom: 1px solid var(--projects-border); }
+.project-list li:first-child { padding-top: 0; }
+.project-list-heading { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 20px; }
+.projects .project-list h3 { display: block; margin: 0; font-size: 1rem; }
+.project-demo { font-size: .75rem; color: var(--projects-muted); }
+.project-list p { margin: 6px 0 0; font-size: .88rem; color: var(--projects-muted); }
+@media (max-width: 684px) {
+  .projects { margin-top: 24px; margin-bottom: 36px; }
+  .projects-intro { margin-bottom: 36px; }
+  .project-feature { padding: 24px 0 28px; }
+  .projects .project-feature h3 { font-size: 1.5rem; }
+  .project-label { max-width: 26em; line-height: 1.7; }
+  .projects-earlier { margin-top: 36px; }
+}

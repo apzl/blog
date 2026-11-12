@@ -1,0 +1,37 @@
+{{ define "main" }}
+<main class="post projects">
+  <header class="projects-intro">
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ .Content }}
+  </header>
+  <section class="projects-featured" aria-labelledby="selected-projects">
+    <h2 class="projects-section-title" id="selected-projects">Selected projects</h2>
+    {{ range .Params.featured }}
+    <article class="project-feature">
+      <p class="project-label">{{ .label }}</p>
+      <h3>{{ .name }}</h3>
+      <p class="project-description">{{ .description }}</p>
+      <p class="project-detail">{{ .detail }}</p>
+      <p class="project-stack">{{ .stack }}</p>
+      <nav class="project-links" aria-label="{{ .name }} links">
+        {{ range .links }}<a href="{{ .url }}">{{ .label }}</a>{{ end }}
+      </nav>
+    </article>
+    {{ end }}
+  </section>
+  <section class="projects-earlier" aria-labelledby="earlier-projects">
+    <h2 class="projects-section-title" id="earlier-projects">Earlier work</h2>
+    <ul class="project-list">
+      {{ range .Params.earlier }}
+      <li>
+        <div class="project-list-heading">
+          <h3><a href="{{ .url }}">{{ .name }}</a></h3>
+          {{ with .demo }}<a class="project-demo" href="{{ . }}">Demo</a>{{ end }}
+        </div>
+        <p>{{ .description }}</p>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</main>
+{{ end }}
